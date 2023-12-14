@@ -112,4 +112,3 @@ void _printstr(char *string)
 		i++;
 	}
 }
-

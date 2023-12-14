@@ -39,4 +39,3 @@ void _isatty(void)
 	if (isatty(STDIN_FILENO))
 		_printstr("#cisfun$ ");
 }
-

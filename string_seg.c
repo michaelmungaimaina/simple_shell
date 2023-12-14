@@ -109,4 +109,3 @@ void free_arr(char **arr)
 		free(arr[i]);
 	free(arr);
 }
-
