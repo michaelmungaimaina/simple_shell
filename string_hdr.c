@@ -71,7 +71,7 @@ char *concatenate(char *str1, char *str2, char *str3)
 }
 
 /**
- * str_func - it gives the length of a string
+ * str_len_func - it gives the length of a string
  * @str: pointer to the string
  * Return: the length of string
  */

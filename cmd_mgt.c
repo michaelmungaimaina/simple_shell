@@ -24,8 +24,8 @@ void _close(char **arv)
 
 /**
  * string_to_int - converts a string into an integer
- *@s: pointer to a string
- *Return: the integer
+ * @s: pointer to a string
+ * Return: the integer
  */
 int string_to_int(char *s)
 {
@@ -68,7 +68,6 @@ void curr_env(char **arv __attribute__ ((unused)))
 
 /**
  * change_env_status - Initialize a new environment
-variable, or modify an existing one
  * @arv: array of entered words
  */
 void change_env_status(char **arv)
