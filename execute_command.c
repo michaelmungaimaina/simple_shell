@@ -4,7 +4,6 @@
  * exec_cmd - a method responsible for handling
  * comand execution
  * @argv: parameter argument
- * 
  * Return: void
  */
 

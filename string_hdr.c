@@ -4,7 +4,7 @@
  * dup_str - returns a pointer to a temply allocated space in memory, which
  * contains a copy of the string given as a parameter
  * @string: pointer to a string
- * Return: pointer to a string
+ * Return: pointer string
  */
 char *dup_str(char *string)
 {

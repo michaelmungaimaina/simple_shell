@@ -2,7 +2,7 @@
 
 
 /**
- * seg_str - splits a string and makes it an array of pointers to words
+ * seg_str - segments a string and makes it an array of pointers to words
  * @str: the string to be split
  * @delim: the delimiter
  * Return: array of pointers to words

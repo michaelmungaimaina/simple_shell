@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - beginning of file excecution
+ * main - beginning of file excecution (entry point)
  * Return: 0 on success
  */
 

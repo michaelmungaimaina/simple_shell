@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * inter_sig - checks if Ctrl C is pressed
+ * inter_sig - checks if Ctrl + C is pressed
  * @sig_num: int
  */
 void inter_sig(int sig_num)
