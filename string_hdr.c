@@ -29,8 +29,26 @@ char *dup_str(char *string)
 	{
 		temp[i] = string[i];
 	}
-	temp[m] = string[m];
+	temp[m] = '\0';
 	return (temp);
+}
+
+/**
+ * str_copy - copy a string
+ * @dest: destination buffer
+ * @src: source buffer
+ *
+ * Description: copies the string pointed to by @src
+ *
+ * Return: pointer to @dest
+ */
+char *str_copy(char *dest, char *src)
+{
+	char *to = dest; /* save the address of dest */
+
+	for (; (*to = *src); src++, to++)
+		;
+	return (dest);
 }
 
 /**

@@ -54,6 +54,7 @@ typedef struct built_cmd
 	void (*func)(char **);
 } built_cmd;
 
+char *str_copy(char *dest, char *src);
 void(*check_cmd(char **arv))(char **arv);
 int string_to_int(char *s);
 void _close(char **arv);
